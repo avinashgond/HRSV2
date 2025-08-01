@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.hotel.shivaji.entities.Rooms;
 import com.hotel.shivaji.services.RoomService;
 
+@CrossOrigin(origins = "https://hrs-ui1.onrender.com")
 @RestController
 @RequestMapping("/shivaji-hotel")
 public class ShivajiHotelController {
